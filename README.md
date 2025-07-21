@@ -27,3 +27,7 @@ This Python remake is currently text-based (terminal-based). Run the `main.py` f
 - Adjacent cards that create a full moon with your card grant 2 points each ($|x-y|=4$).
 - If your card fills a moon cycle of length $L \geq 3$, you gains $L$ points.
 - Once the board is filled, the player with more points wins.
+
+## To do
+- [] Add territory counting at the end of the match.
+- [] Add UI and game graphics.
