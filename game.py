@@ -117,5 +117,9 @@ class Game:
 
             self.currentPlayer = self.currentPlayer.nextPlayer
 
+        for i in self.board.nodeList:
+            if i.owner != None:
+                i.owner.score += 1
+
         print(player1.score)
         print(player2.score)
